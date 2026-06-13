@@ -82,10 +82,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Understand, track, and reduce your carbon footprint with a friendly calculator, dashboard, and personalized eco tips." },
       { name: "author", content: "Verdant" },
       { property: "og:title", content: "Verdant — Track & Reduce Your Carbon Footprint" },
-      { property: "og:description", content: "A simple, modern platform to measure your CO₂ impact and take meaningful action." },
+      { property: "og:description", content: "Understand, track, and reduce your carbon footprint with a friendly calculator, dashboard, and personalized eco tips." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Verdant — Track & Reduce Your Carbon Footprint" },
+      { name: "twitter:description", content: "Understand, track, and reduce your carbon footprint with a friendly calculator, dashboard, and personalized eco tips." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/791dcc29-3999-4b40-add1-e8e3782319e1" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/791dcc29-3999-4b40-add1-e8e3782319e1" },
     ],
     links: [
       {
